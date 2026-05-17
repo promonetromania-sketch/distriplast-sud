@@ -2,7 +2,6 @@ import { Metadata } from 'next'
 import { PageLayout } from '@/components/page-layout'
 import { PageHero } from '@/components/page-hero'
 import { CategoryCard } from '@/components/category-card'
-import { Square, Bug, Layers } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Rulouri Exterioare și Accesorii | Distriplast Sud',
@@ -15,21 +14,21 @@ const categories = [
     description: 'Sisteme de umbrire și protecție cu acționare manuală sau electrică.',
     href: '/rulouri-exterioare',
     image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80',
-    icon: Square,
+    icon: 'square',
   },
   {
     title: 'Plase Țânțari',
     description: 'Protecție împotriva insectelor cu sisteme fixe, rulou sau plisate.',
     href: '/plase-tantari',
     image: 'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&q=80',
-    icon: Bug,
+    icon: 'bug',
   },
   {
     title: 'Glafuri',
     description: 'Glafuri interioare și exterioare din PVC, aluminiu și piatră.',
     href: '/glafuri',
     image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
-    icon: Layers,
+    icon: 'layers',
   },
 ]
 

@@ -2,7 +2,6 @@ import { Metadata } from 'next'
 import { PageLayout } from '@/components/page-layout'
 import { PageHero } from '@/components/page-hero'
 import { CategoryCard } from '@/components/category-card'
-import { Square, RotateCcw, CircleDot, SlidersHorizontal } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Ferestre Termopan Premium | Distriplast Sud',
@@ -15,28 +14,28 @@ const categories = [
     description: 'Performanță maximă cu trei straturi de sticlă pentru izolație excelentă.',
     href: '/ferestre-termopan/ferestre-tripan',
     image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
-    icon: Square,
+    icon: 'square',
   },
   {
     title: 'Ferestre Oscilobatante',
     description: 'Sistem versatil cu deschidere dublă: batantă și basculantă.',
     href: '/ferestre-termopan/ferestre-oscilobatante',
     image: 'https://images.unsplash.com/photo-600566753190-17f0baa2a6c3?w=800&q=80',
-    icon: RotateCcw,
+    icon: 'rotate-ccw',
   },
   {
     title: 'Ferestre Arcuite',
     description: 'Design unic pentru arhitecturi speciale și construcții clasice.',
     href: '/ferestre-termopan/ferestre-arcuite',
     image: 'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&q=80',
-    icon: CircleDot,
+    icon: 'circle-dot',
   },
   {
     title: 'Ferestre Glisante',
     description: 'Economie de spațiu și deschidere maximă pentru vedere panoramică.',
     href: '/ferestre-termopan/ferestre-glisante',
     image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
-    icon: SlidersHorizontal,
+    icon: 'sliders-horizontal',
   },
 ]
 

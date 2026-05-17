@@ -2,7 +2,6 @@ import { Metadata } from 'next'
 import { PageLayout } from '@/components/page-layout'
 import { PageHero } from '@/components/page-hero'
 import { CategoryCard } from '@/components/category-card'
-import { Home, TreePine, Castle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Închideri Balcoane și Terase | Distriplast Sud',
@@ -15,21 +14,21 @@ const categories = [
     description: 'Transformă balconul într-un spațiu confortabil și utilizabil tot anul.',
     href: '/inchideri-balcoane',
     image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80',
-    icon: Home,
+    icon: 'home',
   },
   {
     title: 'Închideri Terase',
     description: 'Soluții elegante pentru terase cu sisteme culisante și fixe.',
     href: '/inchideri-terase',
     image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
-    icon: TreePine,
+    icon: 'tree-pine',
   },
   {
     title: 'Închideri Foișoare',
     description: 'Protecție și confort pentru foișoarele din grădină.',
     href: '/inchideri-foisoare',
     image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80',
-    icon: Castle,
+    icon: 'castle',
   },
 ]
 

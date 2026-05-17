@@ -11,10 +11,17 @@ interface ProductPageTemplateProps {
   description: string
   features: string[]
   benefits: { title: string; description: string }[]
-  images: string[]
+  images?: string[]
   ctaText?: string
   ctaHref?: string
 }
+
+const defaultImages = [
+  'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
+  'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=400&q=80',
+  'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=400&q=80',
+  'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400&q=80',
+]
 
 export function ProductPageTemplate({
   title,
@@ -22,7 +29,7 @@ export function ProductPageTemplate({
   description,
   features,
   benefits,
-  images,
+  images = defaultImages,
   ctaText = 'Solicită Ofertă',
   ctaHref = '/contact',
 }: ProductPageTemplateProps) {
@@ -147,3 +154,5 @@ export function ProductPageTemplate({
     </>
   )
 }
+
+export default ProductPageTemplate

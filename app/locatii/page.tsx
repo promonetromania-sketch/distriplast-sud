@@ -15,14 +15,14 @@ const locations = [
     description: 'Sediul nostru principal cu showroom complet. Vizitează-ne pentru a vedea toate produsele.',
     href: '/locatii/termopane-alexandria',
     image: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80',
-    icon: MapPin,
+    icon: 'map-pin',
   },
   {
     title: 'Termopane Teleorman',
     description: 'Acoperim întregul județ Teleorman cu servicii complete de livrare și montaj profesionist.',
     href: '/locatii/termopane-teleorman',
     image: 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80',
-    icon: MapPin,
+    icon: 'map-pin',
   },
 ]
 

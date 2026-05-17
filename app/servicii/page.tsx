@@ -2,7 +2,6 @@ import { Metadata } from "next"
 import PageHero from "@/components/page-hero"
 import CategoryCard from "@/components/category-card"
 import PageLayout from "@/components/page-layout"
-import { Wrench, Settings, PenTool } from "lucide-react"
 
 export const metadata: Metadata = {
   title: "Servicii Termopane | Reparații, Montaj, Reglaje | Distriplast Sud",
@@ -14,19 +13,19 @@ const services = [
     title: "Reparații Termopane",
     description: "Reparăm orice tip de fereastră sau ușă termopan: înlocuire geam spart, reparații mecanisme, etanșare și izolare termică.",
     href: "/servicii/reparatii-termopane",
-    icon: Wrench,
+    icon: 'wrench',
   },
   {
     title: "Montaj Termopane",
     description: "Montaj profesional pentru ferestre și uși termopan, cu garanție și materiale de calitate superioară.",
     href: "/servicii/montaj-termopane",
-    icon: PenTool,
+    icon: 'pen-tool',
   },
   {
     title: "Reglaje Termopane",
     description: "Reglaje fine pentru ferestre și uși care nu se închid corect, elimină curentul de aer și optimizează funcționarea.",
     href: "/servicii/reglaje-termopane",
-    icon: Settings,
+    icon: 'settings',
   },
 ]
 

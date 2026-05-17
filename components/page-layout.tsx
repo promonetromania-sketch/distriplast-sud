@@ -9,7 +9,7 @@ interface PageLayoutProps {
   showCTA?: boolean
 }
 
-export default function PageLayout({ children, showCTA = true }: PageLayoutProps) {
+export function PageLayout({ children, showCTA = true }: PageLayoutProps) {
   return (
     <>
       <Header />
@@ -22,3 +22,5 @@ export default function PageLayout({ children, showCTA = true }: PageLayoutProps
     </>
   )
 }
+
+export default PageLayout

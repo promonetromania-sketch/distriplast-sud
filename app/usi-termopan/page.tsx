@@ -2,7 +2,6 @@ import { Metadata } from 'next'
 import { PageLayout } from '@/components/page-layout'
 import { PageHero } from '@/components/page-hero'
 import { CategoryCard } from '@/components/category-card'
-import { DoorOpen, DoorClosed, SlidersHorizontal, RotateCcw, Palette } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Uși Termopan Premium | Distriplast Sud',
@@ -15,35 +14,35 @@ const categories = [
     description: 'Uși elegante pentru interiorul casei tale, cu design modern și finisaje premium.',
     href: '/usi-termopan/usi-interior',
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
-    icon: DoorOpen,
+    icon: 'door-open',
   },
   {
     title: 'Uși Exterior',
     description: 'Uși de intrare robuste și sigure, cu izolație termică și fonică superioară.',
     href: '/usi-termopan/usi-exterior',
     image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80',
-    icon: DoorClosed,
+    icon: 'door-closed',
   },
   {
     title: 'Uși Culisante',
     description: 'Sisteme culisante pentru spații generoase și acces facil la terase și grădini.',
     href: '/usi-termopan/usi-culisante',
     image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
-    icon: SlidersHorizontal,
+    icon: 'sliders-horizontal',
   },
   {
     title: 'Uși Oscilobatante',
     description: 'Sisteme versatile cu deschidere dublă pentru ventilație optimă.',
     href: '/usi-termopan/usi-oscilobatante',
     image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80',
-    icon: RotateCcw,
+    icon: 'rotate-ccw',
   },
   {
     title: 'Modele Uși',
     description: 'Galerie completă cu toate modelele și culorile disponibile pentru uși.',
     href: '/usi-termopan/modele-usi',
     image: 'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&q=80',
-    icon: Palette,
+    icon: 'palette',
   },
 ]
 

@@ -17,7 +17,7 @@ interface PageHeroProps {
   backgroundImage?: string
 }
 
-export default function PageHero({
+export function PageHero({
   title,
   subtitle,
   description,
@@ -88,3 +88,5 @@ export default function PageHero({
     </section>
   )
 }
+
+export default PageHero

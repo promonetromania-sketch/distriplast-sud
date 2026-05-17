@@ -2,7 +2,6 @@ import { Metadata } from 'next'
 import { PageLayout } from '@/components/page-layout'
 import { PageHero } from '@/components/page-hero'
 import { CategoryCard } from '@/components/category-card'
-import { Square, DoorOpen, Blinds, Bug } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Prețuri Termopane | Distriplast Sud',
@@ -15,28 +14,28 @@ const categories = [
     description: 'Prețuri pentru toate tipurile de ferestre din PVC cu geam dublu și tripan.',
     href: '/pret-termopane/ferestre',
     image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
-    icon: Square,
+    icon: 'square',
   },
   {
     title: 'Preț Uși',
     description: 'Prețuri pentru uși de interior, exterior și sisteme culisante.',
     href: '/pret-termopane/usi',
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
-    icon: DoorOpen,
+    icon: 'door-open',
   },
   {
     title: 'Preț Rulouri Exterioare',
     description: 'Prețuri pentru sisteme de rulouri cu acționare manuală și electrică.',
     href: '/pret-termopane/rulouri-exterioare',
     image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80',
-    icon: Blinds,
+    icon: 'blinds',
   },
   {
     title: 'Preț Plase Țânțari',
     description: 'Prețuri pentru plase fixe, rulou și sisteme plisate anti-insecte.',
     href: '/pret-termopane/plase-tantari',
     image: 'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&q=80',
-    icon: Bug,
+    icon: 'bug',
   },
 ]
 
